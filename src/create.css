@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+  font-family: 'Comfortaa', cursive;
+}
+
+.error {
+  color: red;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #f0f0f0; /* Light gray background */
+  border-radius: 10px;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow */
+}
+
+.form input {
+  outline: 0;
+  background: #e0e0e0; /* Lighter gray input background */
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+  transition: background 0.3s ease; /* Added transition */
+}
+
+.form input:focus {
+  background: #d1d1d1; /* Lighter gray on focus */
+}
+
+.form button, .button {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4b6cb7;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: background 0.3s ease; /* Added transition */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added box shadow */
+}
+
+.form button:hover, .button:hover {
+  background: #3b5897; /* Darker shade on hover */
+}
+
+.form span {
+  font-size: 25px;
+  color: #4b6cb7;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.form p.error {
+  margin: 0 0 10px 10px;
+  text-align: left;
+  font-size: 10px;
+  color: red;
+}

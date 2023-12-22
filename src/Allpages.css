@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: transparent;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  transition: background-color 0.5s ease; /* Added transition */
+}
+
+h3{
+  color: #3b5897;
+}
+
+body {
+  background: linear-gradient(90deg, #f5f5dc 0%, #f5f5dc 100%);
+  margin: 0;
+}
+
+.button {
+  font-weight: bolder;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Added transition */
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+}
+
+th {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Hover effect to fade the transparent background */
+.form:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
